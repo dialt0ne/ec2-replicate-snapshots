@@ -1,5 +1,22 @@
 ## ec2-replicate-snapshots
 
+### Usage
+
+```
+usage: ec2-replicate-snapshots [-h] [-D] [-B] -s SOURCE -d DESTINATION
+
+Copies EC2 snapshots from one region to another
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -D, --debug           output at debug level
+  -B, --botodebug       enable boto debugging (not enabled with -D)
+  -s SOURCE, --source SOURCE
+                        Source EC2 region
+  -d DESTINATION, --destination DESTINATION
+                        Destination EC2 region
+```
+
 ### License
 
 Copyright 2013 Corsis
