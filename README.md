@@ -73,6 +73,14 @@ The above does the following:
         - keeping 2 months of weekies
         - keeping 2 years fo monthlies
 
+## tl;dr
+
+```
+ec2-consistent-snapshot $SNAPARGS | ec2-replicate-snapshots $REPLARGS
+ec2-expire-snapshots $EXPIREARGS $PRIMARYREGION
+ec2-expire-snapshots $EXPIREARGS $SECONDARYREGION
+```
+
 ### ToDos
 
 * Fail louder. Need to know when DR isn't right.
