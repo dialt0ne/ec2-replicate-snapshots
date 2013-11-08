@@ -86,6 +86,10 @@ ec2-expire-snapshots $EXPIREARGS $SECONDARYREGION
 * Fail louder. Need to know when DR isn't right.
 * Move timeouts into command line arguments.
 
+### Contributing
+
+* Contributions are welcome. Use github to open an issue to discuss a new feature or a pull request to fix a bug.
+
 ### License
 
 Copyright 2013 Corsis
